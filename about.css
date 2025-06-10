@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgreen;
+    height: 10vh;
+    padding-top: 2vh;
+    /* position: relative; */
+
+}
+
+.main .navbar1 {
+    margin-left: 100px;
+
+}
+
+.main .navbar1 li {
+    display: inline-block;
+    margin: 10px;
+    padding: 7px;
+
+}
+
+.main .navbar1 li a {
+    color: #f5f1f1;
+
+}
+
+
+.main .navbar1 li a:hover {
+    text-decoration: underline;
+    color:  #f5f1f1;
+
+}
+
+.main .navbar2 {
+    margin-right: 100px;
+    /* gap: 10vh; */
+    /* position: fixed; */
+}
+
+.main .navbar2 li {
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.main .navbar2 li a {
+    color:  #f5f1f1;
+}
+
+.main .navbar2 li a:hover {
+    text-decoration: underline;
+    color: darkgrey;
+}
+
+.main .navbar2 .fa-message {
+    padding: 7px;
+    background-color: orangered;
+    border-radius: 50%;
+    font-size: 11x;
+
+}
+
+.main .navbar2 .fa-location-dot {
+    padding: 7px;
+    background-color: orangered;
+    border-radius: 55%;
+    font-size: 11x;
+
+
+}
+.baar{
+    display: none;
+    margin-top: 10px;
+    margin-left: 95%;
+    font-size: 30px;
+    position: absolute;
+}
+
+
+
+@media screen and (max-width: 1100px) {}
+    
+    .baar{
+        display: block;
+        position: fixed;
+    }
+    .main .navbar1{
+        margin-left: 10px;
+        padding: 0px;
+
+    }
+    .main .navbar1 li {
+        margin: 2px;
+        padding: 2px;
+    }
+     .main .navbar2{
+        margin-left: 10px;
+        padding: 0px;
+        margin-top: -2px;
+
+     }
+     .main .navbar2 li{
+        margin:2px;
+        padding: 0px;
+    }
+    .main .navbar2 li .fa-message{
+        background: transparent;
+    }
+    .main .navbar2 li .fa-location-dot{
+        background: transparent;
+    }
+
+    .btns .btn2 li  a{
+        width: 100px;
+        display: block;
+       
+    }
+    
+
+.btns {
+    display: flex;
+    background-color: aliceblue;
+    width: 1000px;
+    /* z-index: 5; */
+    border-radius: 40px;
+    margin-top: -40px;
+    margin-left: 100px;
+    /* padding-left: 10px; */
+    height: 10vh;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* position: relative  ; */
+
+}
+
+
+
+.btns .btn1 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+ .btns .btn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.btns .btn2 li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 6px;
+    width: 60px;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+.btns .btn2 li:hover {
+    background-color: darkgreen;
+    border-radius: 20px;
+    width: 10%;
+
+    a {
+        color: aliceblue;
+    }
+}
+
+.btns .btn2 li a {
+    color: #222;
+}
+
+.btn2 .fa-magnifying-glass {
+    margin-left: 20px;
+}
+
+.btns .btn2 button {
+    width: 150px;
+    padding: 18px;
+    /* position: absolute; */
+    /* margin-top: -9px; */
+    margin-left: 52px;
+    background-color:  #ff5c1b;
+    border: none;
+    border-radius: 40px;
+    transition: all 1s ease-in-out;
+    font-weight: bold;
+    height: 10vh;
+    color: white;
+}
+
+.btns .btn button:hover {
+    background: darkred;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.btn1 img{
+  height: 50px;
+  width: 200px;
+}
